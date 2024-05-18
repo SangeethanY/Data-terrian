@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Data-terrian/static/css/main.84befc75.css",
+    "main.js": "/Data-terrian/static/js/main.7d503306.js",
+    "static/js/453.efa17429.chunk.js": "/Data-terrian/static/js/453.efa17429.chunk.js",
+    "index.html": "/Data-terrian/index.html",
+    "main.84befc75.css.map": "/Data-terrian/static/css/main.84befc75.css.map",
+    "main.7d503306.js.map": "/Data-terrian/static/js/main.7d503306.js.map",
+    "453.efa17429.chunk.js.map": "/Data-terrian/static/js/453.efa17429.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84befc75.css",
+    "static/js/main.7d503306.js"
+  ]
+}
