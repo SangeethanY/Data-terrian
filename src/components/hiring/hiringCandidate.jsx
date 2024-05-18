@@ -1,5 +1,6 @@
 import { Avatar, Box, Button, Link, Typography } from "@mui/material";
 import React from "react";
+import ava from "../../images/ava.jpg"
 
 export default function HiringCandi() {
   return (
@@ -20,7 +21,7 @@ export default function HiringCandi() {
             <Avatar
               sx={{ width: 55, height: 55 }}
               alt="Remy Sharp"
-              src="/ava.jpg"
+              src={ava}
             />
           </div>
 
@@ -51,7 +52,7 @@ export default function HiringCandi() {
             <Avatar
               sx={{ width: 55, height: 55 }}
               alt="Remy Sharp"
-              src="/ava.jpg"
+              src={ava}
             />
           </div>
 
@@ -82,7 +83,7 @@ export default function HiringCandi() {
             <Avatar
               sx={{ width: 55, height: 55 }}
               alt="Remy Sharp"
-              src="/ava.jpg"
+              src={ava}
             />
           </div>
 

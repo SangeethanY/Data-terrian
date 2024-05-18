@@ -1,6 +1,6 @@
 import { Avatar, Box, Button, Link, Typography } from "@mui/material";
 import React from "react";
-
+import avatarimg from "../../images/avatar-image.png"
 export default function Activity() {
   return (
     <div style={{paddingTop: "1rem"}}>
@@ -19,7 +19,7 @@ export default function Activity() {
               alignContent: "center",
              
             }}>
-            <Avatar sx={{ width: 55, height: 55 }} alt="Remy Sharp" src="/avatar-image.png" /> 
+            <Avatar sx={{ width: 55, height: 55 }} alt="Remy Sharp" src={avatarimg} /> 
            
           </div>
 
@@ -52,7 +52,7 @@ export default function Activity() {
               alignContent: "center",
              
             }}>
-            <Avatar sx={{ width: 55, height: 55 }} alt="Remy Sharp" src="/avatar-image.png" /> 
+            <Avatar sx={{ width: 55, height: 55 }} alt="Remy Sharp" src={avatarimg} /> 
            
           </div>
 
@@ -85,7 +85,7 @@ export default function Activity() {
               alignContent: "center",
              
             }}>
-            <Avatar sx={{ width: 55, height: 55 }} alt="Remy Sharp" src="/avatar-image.png" /> 
+            <Avatar sx={{ width: 55, height: 55 }} alt="Remy Sharp" src={avatarimg} /> 
            
           </div>
 

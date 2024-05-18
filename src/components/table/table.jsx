@@ -11,6 +11,7 @@ import {
 import { FaRegCalendarDays } from "react-icons/fa6";
 import { FaClock } from "react-icons/fa";
 import styles from "./table.module.scss";
+import avatarimg from "../../images/avatar-image.png"
 const Table = () => {
   const headers = [
     { key: "name", label: "Name" },
@@ -38,7 +39,7 @@ const Table = () => {
                 alignItems: "center",
                 
               }}>
-              <Avatar alt="Remy Sharp" src="/avatar-image.png" />
+              <Avatar alt="Remy Sharp" src={avatarimg} />
               <Typography>Mervin</Typography>
               <Typography>Python Developer</Typography>
             </div>
@@ -130,7 +131,7 @@ const Table = () => {
                 flexDirection: "column",
                 alignItems: "center",
               }}>
-              <Avatar alt="Remy Sharp" src="/avatar-image.png" />
+              <Avatar alt="Remy Sharp" src={avatarimg} />
               <Typography>Mervin</Typography>
               <Typography>Python Developer</Typography>
             </div>

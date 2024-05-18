@@ -21,6 +21,18 @@ import AdbIcon from "@mui/icons-material/Adb";
 import MenuIcon from "@mui/icons-material/Menu";
 import { GiMayanPyramid } from "react-icons/gi";
 import SearchIcon from "@mui/icons-material/Search";
+import logo from "../images/logo.png"
+import icon1 from "../images/icon_1.png"
+import icon2 from "../images/icon-2.png"
+
+import icon3 from "../images/icon-3.png"
+
+import icon4 from "../images/icon-4.png"
+import avatarimage from "../images/avatar-image.png"
+
+
+
+
 const useStyles = makeStyles((theme) => ({
   appBar: {
     height: 80, // Adjust height as needed
@@ -43,7 +55,6 @@ const useStyles = makeStyles((theme) => ({
     },
   },
 }));
-
 function NavBar() {
   const classes = useStyles();
   return (
@@ -65,7 +76,7 @@ function NavBar() {
               gap: "5rem",
               width: "100%",
             }}>
-            <img src="/logo.png" alt="img" width={200} />
+            <img src={logo} alt="img" width={200} />
             <TextField
               className={`${classes.textField} ${classes.root}`}
               sx={{
@@ -92,13 +103,13 @@ function NavBar() {
 
           <Box sx={{ display: "flex", gap: "2rem" }}>
             <Box sx={{ flexGrow: 1, display: "flex",gap:"5rem",alignItems:"center" }}>
-              {["/icon-4.png", "/icon-2.png", "/icon-3.png", "/icon_1.png"].map((page) => (
+              {[icon4, icon2, icon1,icon3].map((page) => (
                 <img width={"auto"} height={17} src={page} alt="img" />
               ))}
             </Box>
             <Tooltip title="Open settings">
               <IconButton onClick={() => {}} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/avatar-image.png" />
+                <Avatar alt="Remy Sharp" src={avatarimage} />
               </IconButton>
             </Tooltip>
           </Box>
