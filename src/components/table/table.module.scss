@@ -1,0 +1,27 @@
+
+.tableBody{
+    width: 60%;
+    
+    
+}
+.tableCont{
+    display: flex;
+}
+.datacell{
+    flex: 1;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #adacac;
+  }
+  
+  .tablecell {
+    border: 1px solid #adacac;
+    border-collapse: collapse;
+    vertical-align: top; /* Align content to the top */
+  }
+  .tableBottom{
+    border-bottom:1px solid #adacac ;
+   
+  }
